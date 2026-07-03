@@ -6,7 +6,7 @@ A personal portfolio site built in a bold neo-brutalist style — thick borders,
 
 ## 🔗 Live Demo
 
-_(Add your deployed link here once you deploy — e.g. Vercel/Netlify/GitHub Pages)_
+The Link: https://my-dev-portfolio-delta.vercel.app
 
 ## ✨ Sections
 
