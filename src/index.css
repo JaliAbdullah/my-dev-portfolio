@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.neo-shadow {
+  box-shadow: 6px 6px 0px 0px #000000;
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+.neo-shadow:active {
+  transform: translate(4px, 4px);
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+.neo-shadow-hover:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.marquee-content {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+body {
+  background-color: theme('colors.background');
+}
