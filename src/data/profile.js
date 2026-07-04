@@ -9,6 +9,14 @@ const profile = {
   heroBlurb:
     'I am a highly motivated, hands-on builder who thrives on jumping head-first into complex technical environments, engineering end-to-end full-stack applications, and breaking down system architecture mechanics from the inside out.',
 
+  // Images live in /public/images — swap the files there and these paths
+  // stay the same.
+  images: {
+    logo: '/images/logo.png',
+    profile: '/images/profile.png',
+    techOrbit: '/images/tech-orbit.jpg',
+  },
+
   marqueeItems: ['INTERN 2026', 'OPEN TO ROLES', 'INTERN 2026', 'DEVELOPER', 'CYBERSECURITY'],
 
   toolkit: [

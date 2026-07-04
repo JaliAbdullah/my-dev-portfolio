@@ -5,9 +5,11 @@ const links = ['ABOUT', 'TOOLKIT', 'CREDENTIALS', 'PROJECTS', 'CONTACT']
 export default function Navbar() {
   return (
     <nav className="sticky top-0 w-full bg-background dark:bg-on-background z-50 flex justify-between items-center px-gutter py-4 max-w-[1440px] mx-auto">
-      <div className="font-headline-sm text-headline-sm font-black tracking-tighter text-on-background dark:text-surface-bright uppercase">
-        PORTFOLIO
-      </div>
+      <a href="#about" className="flex items-center gap-3">
+        <span className="font-headline-sm text-headline-sm font-black tracking-tighter text-on-background dark:text-surface-bright uppercase">
+          {profile.name.split(' ')[0]}
+        </span>
+      </a>
       <div className="hidden md:flex items-center gap-6 font-body-md text-body-md font-bold uppercase">
         {links.map((link, i) => (
           <a
@@ -22,10 +24,10 @@ export default function Navbar() {
         ))}
       </div>
       <a
-        href={profile.resumePdfHref}
+        href="#contact"
         className="bg-primary-container text-on-background border-border-width border-on-background font-body-md text-body-md font-bold uppercase px-6 py-2 neo-shadow neo-shadow-hover hidden md:block"
       >
-        DOWNLOAD PDF RESUME
+        HIRE ME »
       </a>
       <button className="md:hidden block p-2 border-border-width border-on-background neo-shadow bg-primary-container">
         <span className="material-symbols-outlined">menu</span>

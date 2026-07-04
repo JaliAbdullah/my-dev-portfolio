@@ -69,6 +69,7 @@ Change text there and it updates across the whole site automatically. No need to
 
 ## 📌 Roadmap / To-Do
 
+- [X] Update interface and add Picture
 - [ ] Add a downloadable PDF resume and link it in `resumePdfHref`
 - [ ] Link real GitHub repos for each project lab
 - [ ] Add real project screenshots

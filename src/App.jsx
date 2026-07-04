@@ -10,9 +10,7 @@ export default function App() {
   return (
     <div className="font-body-md text-on-background text-body-md overflow-x-hidden min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop py-12 flex flex-col gap-24">
-        <Hero />
-      </main>
+      <Hero />
       <Marquee />
       <main className="flex-grow w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-desktop py-12 flex flex-col gap-24">
         <Toolkit />
