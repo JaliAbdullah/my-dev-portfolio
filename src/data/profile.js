@@ -17,7 +17,7 @@ const profile = {
     techOrbit: '/images/tech-orbit.jpg',
   },
 
-  marqueeItems: ['INTERN 2026', 'OPEN TO ROLES', 'INTERN 2026', 'DEVELOPER', 'CYBERSECURITY'],
+  marqueeItems: ['INTERN 2026', 'OPEN TO ROLES', 'ANDROID DEVELOPER', 'APP DEVELOPER', 'LINUX', 'CYBERSECURITY'],
 
   toolkit: [
     {
