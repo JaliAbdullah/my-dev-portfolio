@@ -75,28 +75,28 @@ const profile = {
 
   labs: [
     {
-      title: 'LAB 1: Full-Stack Interface App',
-      focus: 'Web App & Dynamic Interfaces',
+      title: 'LAB 1: ANDROID SAVINGS APPLICATION',
+      focus: 'MOBILE APP & INTERACTIVE INTERFACES',
       description:
-        'Designed, structured, and executed dynamic web frontend view layers connected securely to specialized utility algorithms.',
+        'Designed, structured, and executed a vibrant, user-friendly Android application built to help children learn financial literacy through goal tracking.',
       tasks: [
-        'Engineered clean layouts and interactive components.',
-        'Constructed custom Temperature Converter and standalone Discount Calculator models.',
+        'Engineered structured XML layouts and interactive UI components optimized for a seamless mobile user experience.',
+        'Implemented core logic to calculate weekly contributions and provide positive reinforcement for user saving goals.',
       ],
-      tech: ['React', 'Node.js', 'Express', 'Android XML'],
+      tech: ['Android Studio', 'Java', 'Android XML', 'Gradle'],
       repo: '#',
       accent: 'secondary-container',
     },
     {
-      title: 'LAB 2: Infrastructure & Data Sandbox',
-      focus: 'Automation & Database Operations',
+      title: 'LAB 2: REACT FRONT-END E-COMMERCE',
+      focus: 'WEB APPLICATION & STATE MANAGEMENT',
       description:
-        'Configured and managed an isolated local terminal workspace to safely test script automations, schema snapshots, and infrastructure monitoring.',
+        'Configured and managed a dynamic web frontend application featuring a fully functional houseplant e-commerce store.',
       tasks: [
-        'Authored custom Bash terminal scripts for automated audits and log tracking.',
-        'Deployed localized SQL instances for secure testing data matrices.',
+        'Architected clean component views including an interactive landing page, product listings, and an integrated shopping cart.',
+        'Implemented React Router for smooth client-side navigation and Redux for seamless, predictable global application state management.',
       ],
-      tech: ['Linux', 'Bash', 'SQL', 'MySQL', 'PostgreSQL'],
+      tech: ['React', 'Redux', 'JavaScript', 'HTML/CSS'],
       repo: '#',
       accent: 'primary-container',
     },
